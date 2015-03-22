@@ -1,0 +1,2 @@
+# SimpleForkDaemonSharedMemoryCounter
+Przykład prostego daemona obsługującego komunikacje z klientem - pobiera wiadomość od podłączonego klienta, zamienia małe litery na wielkie i wysyła zmodyfikowaną wiadomość do klienta. Do obsługi wielu równoległych połączeń wykorzystany został mechanizm forkowania procesów. Współdzielony licznik aktywnych połączeń zrealizowany w oparciu o pamięć współdzieloną.
